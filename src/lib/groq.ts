@@ -339,7 +339,7 @@ function heuristicFeedback(
       id: "fb-2",
       category: "speech",
       title: "Protect clarity on key phrases",
-      body: `Clarity landed around ${metrics.clarityPercent}%. Slow the most important sentence by about 10%.`,
+      body: `Speech clarity landed around ${metrics.clarityPercent}%. Slow the most important sentence by about 10%.`,
     },
     {
       id: "fb-3",

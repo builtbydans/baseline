@@ -4,7 +4,7 @@ import { useSyncExternalStore } from "react";
 
 import type { PracticeSession } from "@/lib/types";
 
-const STORAGE_KEY = "clarity-real-sessions";
+const STORAGE_KEY = "baseline-real-sessions";
 const MAX_SESSIONS = 20;
 const listeners = new Set<() => void>();
 

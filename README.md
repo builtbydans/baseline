@@ -1,6 +1,6 @@
-# Clarity
+# Baseline
 
-Dark-mode frontend for an AI speech and presentation coach. Phase 1 is UI-only: mock data, simulated processing, and a modular Professional / Clinical vocabulary layer.
+Dark-mode frontend for an AI speech and presentation coach. Phase 1 includes a simulated UI flow plus Groq-backed live recording sessions, with a modular Professional / Clinical vocabulary layer.
 
 ```bash
 npm install

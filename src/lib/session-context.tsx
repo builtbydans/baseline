@@ -14,7 +14,7 @@ import {
   type SessionDraft,
 } from "@/lib/types";
 
-const STORAGE_KEY = "clarity-session-draft";
+const STORAGE_KEY = "baseline-session-draft";
 const listeners = new Set<() => void>();
 
 let cachedRaw: string | null | undefined = undefined;

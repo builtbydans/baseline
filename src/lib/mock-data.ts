@@ -92,7 +92,7 @@ const LATEST_FEEDBACK: FeedbackItem[] = [
     id: "fb-2",
     category: "speech",
     title: "Slow the third sentence by ~10%",
-    body: "Clarity dipped on “passionate” and “accessible”. Slightly longer vowels will reduce the slurred edges.",
+    body: "Speech clarity dipped on “passionate” and “accessible”. Slightly longer vowels will reduce the slurred edges.",
   },
   {
     id: "fb-3",

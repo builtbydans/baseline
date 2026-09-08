@@ -12,7 +12,7 @@ import {
 import { COPY, type AppCopy } from "@/lib/copy";
 import type { AppMode } from "@/lib/types";
 
-const STORAGE_KEY = "clarity-app-mode";
+const STORAGE_KEY = "baseline-app-mode";
 const listeners = new Set<() => void>();
 
 function subscribe(listener: () => void) {

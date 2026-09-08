@@ -17,9 +17,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Clarity — Speech & Presentation Coach",
+  title: "Baseline — Speech & Presentation Coach",
   description:
-    "Practice interviews, presentations, and speech recovery with Clarity. Modular professional and clinical modes.",
+    "Practice interviews, presentations, and speech recovery with Baseline. Modular professional and clinical modes.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -1,14 +1,14 @@
 import type { PracticeSession } from "@/lib/types";
 
 const globalStore = globalThis as typeof globalThis & {
-  __claritySessions?: Map<string, PracticeSession>;
+  __baselineSessions?: Map<string, PracticeSession>;
 };
 
 function getMap(): Map<string, PracticeSession> {
-  if (!globalStore.__claritySessions) {
-    globalStore.__claritySessions = new Map();
+  if (!globalStore.__baselineSessions) {
+    globalStore.__baselineSessions = new Map();
   }
-  return globalStore.__claritySessions;
+  return globalStore.__baselineSessions;
 }
 
 export function saveSession(session: PracticeSession): void {

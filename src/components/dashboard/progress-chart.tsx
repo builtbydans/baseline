@@ -20,7 +20,7 @@ import { useMode } from "@/lib/mode-context";
 
 const chartConfig = {
   clarity: {
-    label: "Clarity",
+    label: "Speech clarity",
     color: "var(--chart-1)",
   },
   fillerWords: {
